@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 20%;
+    align-items: center;
+    background-color: #314c38;
+    border-radius: 50px 50px 50px 50px !important ;
+    height: 40px;
+    padding: 0px 40px 0px 40px;
+}
+
+.navlinks li{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+    
+}
+
