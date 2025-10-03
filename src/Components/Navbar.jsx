@@ -8,13 +8,16 @@ const Navbar = () => {
             <div className="nav">
                 
             <div className='logo' key={e.id}>
-                <img src={e.logo} alt="" />
+                {/* <img src={e.logo} alt="" /> */}
+                <h2>R</h2>
+                 <h3> Rajesh.S</h3>
             </div>
             <div className='navlinks'>
                 <li>
                     <ul>{e.links.home}</ul>
                     <ul>{e.links.about}</ul>
                     <ul>{e.links.projects}</ul>
+                    <ul>{e.links.skills}</ul>
                 </li>
             </div>
             <div className="contactbtn">
