@@ -5,9 +5,7 @@
     padding: 50px;
     /* justify-content: center; */
 }
-.greet-text{
-    
-}
+
 .btn-portfolio{
     display: flex;
     gap: 20px;
@@ -19,12 +17,12 @@
     cursor: pointer;
     border: none;
     border-radius: 30px;
-    background-color: rgb(185, 185, 9);
+    background-color:#f9ad1b;
     padding: 2px;
     gap: 10px;
 }
 .portfolio-btn .txt{
-background-color: green;
+background-color: #344c36;
 border-radius: 30px;
 padding: 10px;
 }
@@ -43,42 +41,46 @@ padding: 10px;
     border-radius:30px ;
     border: black solid 1px;
 }
-
+.greet-text .greet-name{
+    padding: 0px 200px 0px 200px;
+}
+.greet-text p{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+    /* overflow: hidden; */
+}
+.greet-text p span{
+    color: #f9ad1b;
+    border-bottom: #f9ad1b 1px solid;
+    
+ }
 .greet-image{
    
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    
 }
-.bg-desighn{
-    background-color: yellow;
-    top: 30px;
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    z-index: 0;
-    align-items: center;
-    /* clip-path: polygon(30% 0%, 100% 10%, 90% 80%, 10% 100%, 0% 30%); */
-    /* border-radius: 50%; */
-    /* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 70% 100%, 20% 80%, 0% 40%); */
-border-radius: 40% 60% 70% 30% / 30% 40% 60% 70%;
-}
-.greet-image img{
+
+/* .greet-image img{
     width: 400px;
     height: 300px;
     padding: 20px;
-}
-.greet-image .greet-img{
-    position: relative;
-    z-index: 1;
-}
+} */
+
 .greet-image .label{
     position: absolute;
     z-index: 3;
     
 }
-
+.greet-image img{
+    border-radius: 150px;
+}
 .greet-image,.greet-text{
     flex: 1;
 }

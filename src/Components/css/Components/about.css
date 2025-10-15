@@ -1,0 +1,28 @@
+.about-box{
+    background-color: #344c36;
+    display: flex;
+    color: white;
+    
+}
+.about-box .about-image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-image-box,.about-content-box{
+    flex: 1;
+}
+.about-name{
+    display: flex;
+    gap: 10px;
+}
+.about-name p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 100;
+    color: #f9ad1b;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-style: oblique;
+}
